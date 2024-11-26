@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Imágenes y Título Curvado</title>
+    <style>
+        /* Estilo general de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Título curvado */
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            color: #333;
+            position: relative;
+            display: inline-block;
+            transform: rotate(-5deg);
+        }
+
+        /* Contenedor de las imágenes */
+        .image-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a imagenes de ANA SOFIA POLANCO LOPEZ!</h1>
+
+    <div class="image-container">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.34 PM (1).jpeg" alt="Imagen 1">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.34 PM.jpeg" alt="Imagen 2">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.35 PM (1).jpeg" alt="Imagen 3">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.35 PM (2).jpeg" alt="Imagen 4">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.35 PM (3).jpeg" alt="Imagen 5">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.35 PM (4).jpeg" alt="Imagen 6">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.35 PM.jpeg" alt="Imagen 7">
+        <img src="img/WhatsApp Image 2024-11-25 at 4.18.36 PM.jpeg" alt="Imagen 8">
+    </div>
+</body>
+</html>
